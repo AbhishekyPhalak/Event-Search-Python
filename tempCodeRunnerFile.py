@@ -1,0 +1,1 @@
+return json.dumps({'msg': 'data received'})

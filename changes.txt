@@ -1,0 +1,10 @@
+button style.. clear and searh
+form elements .. required
+
+('http://jsonplaceholder.typicode.com/posts/?_limit=10') 
+
+limit
+
+font segoe
+
+box-shadow for table header

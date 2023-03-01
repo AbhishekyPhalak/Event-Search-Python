@@ -1,0 +1,468 @@
+body{
+    background-image: url('/static/background.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} /*w3-schools how to set background image to screen size*/
+
+.event-form{
+    height: auto;
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    backdrop-filter: blur(8px) brightness(110%);
+    background-color: rgba(241, 239, 239, 0.174);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+.Event-header{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: -1px;
+    text-align: center;
+}
+
+hr{
+    background-color: white;
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+.sticker{
+    color: rgb(122, 191, 191);
+    text-align: left;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+input{
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+select{
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.keyword{
+    width: 99%;
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    height: 20px;
+    color: white;
+}
+
+.distance{
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 125px;
+    height: 20px;
+    color: white;
+}
+
+#locationn{
+    margin-top: -1px;
+}
+
+.location{
+    width: 99%;
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    height: 20px;
+    color: white;
+}
+
+
+.column{
+    display: inline-block;
+}
+
+.cat{
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    color: white;
+    width: 235px;
+    height: 25px;
+}
+
+option{
+    color: white;
+    background-color: rgb(64, 63, 63);
+}
+
+#abc{
+    width: 114px;
+}
+
+span{
+    color: red;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#search{
+    background-color: rgb(240, 102, 52);
+    box-shadow: 0 8px 6px -6px rgb(240, 99, 47);
+}
+
+#clear{
+    margin-left: 5px;
+    background-color: rgb(97, 97, 191);
+    box-shadow: 0 8px 6px -6px rgb(82, 82, 196);
+}
+
+.buttons{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.autodetect{
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+#auto-detection label{
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#search:hover{
+    background-color: rgb(245, 128, 86);
+}
+
+#clear:hover{
+    background-color: rgb(121, 121, 199);
+}
+
+.event_details_title{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+
+table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    width: 1000px !important;
+}
+
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-header{
+    box-shadow: 0px 2px 5px #888888; /*refernce - stackoverflow*/
+}
+
+.hover_change:hover{
+    color: rgb(46, 23, 150);
+    cursor: pointer;
+}
+
+.infoo{
+    margin-top: -13px;
+    color: white;
+    font-size: 13px;
+}
+
+.description{
+    color: rgb(157, 255, 232);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -5px;
+}
+
+.onsale{
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(37, 133, 58);
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.rescheduled{
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 162, 0);
+    margin-top: -13px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+/*#infooo{
+    color: rgb(90, 123, 207);
+}*/
+#atag{
+    text-decoration: none;
+    color: rgb(47, 179, 250)
+}
+
+
+.labell{
+    color: rgb(157, 255, 232);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.offsale{
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(248, 20, 20);
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.canceled{
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+#column11{
+    padding-left: 30px;
+    width: 300px;
+    height: auto;
+}
+
+#column22{
+    width: 540px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.postponed{
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 162, 0);
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.abcdefg{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.api2image{ 
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    object-fit: contain;
+    display: inline-block;
+    height: 95%;
+    vertical-align: middle;
+}
+
+.atag2{
+    text-decoration: none;
+    color: rgb(47, 179, 250)
+}
+
+.arrow_image{
+    width: 50px;
+    height: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    opacity: 0.7;
+}
+
+.arrow_image:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.venue_title{
+    color: #888888;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+.venue_card{
+    background-color: white;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.padder{
+    border: 1px solid rgba(0, 0, 0, 0.669);
+    border-radius: 15px;
+}
+
+.venue_name_11{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.padder h3{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1px;
+}
+
+.venue_img_symbol{
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+    text-align: center;
+}
+
+.row100{
+    width: 870px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.row{
+    margin-top: 15px;
+}
+
+.column100{
+    display: inline-block;
+}
+
+#column101{
+    width: 175px;
+    text-align: right;
+    font-weight: 500;
+    vertical-align: top;
+}
+
+.target3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+#column102{
+    width: 235px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.big{
+    display: inline-block;
+}
+
+#big1{
+    width: 410px;
+}
+
+#big2{
+    width: 430px;
+    border-left: 1px solid black;
+    vertical-align: top;
+}
+
+#final{
+    margin-top: 20px;
+}
+
+.google_maps{
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 40px;
+}
+
+.atag_styles{
+    text-decoration: none;
+    color: rgb(64, 188, 222);
+}
+
+.google_maps a:hover{
+    color: rgb(46, 23, 150);
+}
+
+#final:hover{
+    color: rgb(46, 23, 150);
+}
+
+.event-display-3{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event_details{
+    margin-bottom: 35px;
+}
+
+#aligner{
+    vertical-align: middle;
+}
+
+.redirect{
+    text-decoration: none;
+    color: black;
+}

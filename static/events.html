@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Event Search</title>
+    <link rel="stylesheet" href="/static/events.css?version=1">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <div class="event-form">
+        <h3 class="Event-header">Events Search</h3>
+        <hr>
+        <div class="form">
+            <form id="event-input">
+                <label class="sticker" for="Keyword">Keyword<label><span>*</span><br>
+                <input type="text" id="keywordd"class="keyword" required><br>
+
+                <div>
+                    <div class="column">
+                        <label class="sticker" for="Distance">Distance (miles)</label><br>
+                        <input type="number" placeholder="10" id="distancee" class="distance">
+                    </div>
+                    <div class="column" id="abc">
+
+                    </div>
+                    <div class="column" id="ab">
+                        <label class="sticker" for="Category">Category</label><span>*</span><br>
+                        <select name="category" id="categoryy" class="cat">
+                            <option value="" selected>Default</option>
+                            <option value="Music">Music</option>
+                            <option value="Sports">Sports</option>
+                            <option value="Arts">Arts</option>
+                            <option value="Theatre">Theatre</option>
+                            <option value="Film">Film</option>
+                            <option value="Miscellaneous">Miscellaneous</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="autodetect">
+                        <label class="sticker" for="Location">Location</label><span>*</span><br>
+                    </div>
+                    <div class="autodetect" id="auto-detection">
+                        <input type="checkbox" id="check-box" onclick="auto()" name="autodetect">
+                        <label class="sticker" for="autodetect">Auto-Detect Location</label>
+                    </div>
+                    <div id="location-textbox"><input id="locationn" type="text" class="location"><br></div> 
+                </div>
+                
+                <div class="buttons">
+                    <input class="button" id="search" type="button" value="SEARCH" onclick="searchh()">
+                    <input class="button" id="clear" type="button" value="CLEAR" onclick="clear_input()"> 
+                <br><br>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="output-events">
+        <div id = "targett">
+
+        </div> 
+    </div>   
+    <div id="redirect2" class="event-details-display">
+        <div id = target2>
+        </div>
+    </div>
+    <div>
+        <div id="venue_card_details_1">
+
+        </div>
+    </div><br>
+
+    <script src="/static/events.js"></script>
+</body>
+
+</html>
