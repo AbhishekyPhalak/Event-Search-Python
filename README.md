@@ -4,10 +4,11 @@ A dynamic, server-side application that allows users to search for events using 
 
 ### Screenshot
 
-![image](https://github.com/user-attachments/assets/304444a6-7d7c-42e0-91f9-4a2621841b6f)
+![image](https://github.com/user-attachments/assets/fa04d13b-476c-4eaf-9941-b6eb8ab3648c)
 
 
-![image](https://github.com/user-attachments/assets/695da390-2146-43e2-989d-de3804e291f3)
+![image](https://github.com/user-attachments/assets/deb5a5ba-aff4-4497-b8f3-f06d1edcd4db)
+
 
 
 
