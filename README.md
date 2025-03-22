@@ -6,7 +6,6 @@ A dynamic, server-side application that allows users to search for events using 
 
 ![image](https://github.com/user-attachments/assets/304444a6-7d7c-42e0-91f9-4a2621841b6f)
 
-![image](https://github.com/user-attachments/assets/29a4eb29-a841-4369-9904-4acb7bc38aaa)
 
 ![image](https://github.com/user-attachments/assets/695da390-2146-43e2-989d-de3804e291f3)
 
